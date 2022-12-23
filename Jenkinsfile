@@ -6,7 +6,8 @@ pipeline {
             git branch: 'master',
 	    url: 'https://github.com/revanth-citibank/Citi-Christmas-Jenkins.git'
             sh "ls -lat"
-        }
+      }
+    }
 
  }  
 }
