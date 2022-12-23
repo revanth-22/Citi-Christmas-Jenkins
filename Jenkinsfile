@@ -1,6 +1,6 @@
 pipeline {
   agent any
-    stages(
+    stages{
       stage('Checkout github repositary master') {
         steps {
             git branch: 'master',
@@ -8,5 +8,5 @@ pipeline {
             sh "ls -lat"
         }
 
-    )
+ }  
 }
